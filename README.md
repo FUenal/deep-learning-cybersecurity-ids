@@ -99,23 +99,53 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 |             | GaussianNB     |           \* |      \* |               \* |
 |             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 02-15-2018  | FastAI            |        99.98 |    0.01 |               25 |
-|             | Keras-Tensorfflow |        99.32 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 02-16-2018  | FastAI            |       100.00 |    0.00 |               16 |
-|             | Keras-TensorFlow  |        99.84 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 02-22-2018  | FastAI            |        99.87 |    0.15 |              110 |
-|             | Keras-TensorFlow  |        99.97 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 02-23-2018  | FastAI            |        99.92 |    0.00 |              120 |
-|             | Keras-TensorFlow  |        99.94 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 03-01-2018  | FastAI            |        87.00 |    0.00 |                5 |
-|             | Keras-TensorFlow  |        72.20 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 03-02-2018  | FastAI            |        99.97 |     .01 |               75 |
-|             | Keras-TensorFlow  |        98.12 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
+|             | XGBoost           |        98.80 |      \* |               \* |
+|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | ===         | ===               |          === |     === |              === |
 | Multiclass  | Keras-TensorFlow  |        94.73 |      \* |               \* |
 |             | Keras-Theano      |           \* |      \* |               \* |
