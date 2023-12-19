@@ -93,8 +93,11 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 | 02-14-2018  | FastAI            |        99.85 |    0.07 |               \* |
 |             | XGBoost           |        98.80 |      \* |               \* |
 |             | Random Forest     |           \* |      \* |               \* |
-|             | Decision Tree Classifier     |           \* |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
+|             | DecisionTreeClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression     |           \* |      \* |               \* |
+|             | SVC     |           \* |      \* |               \* |
+|             | GaussianNB     |           \* |      \* |               \* |
+|             | KNeighborsClassifier     |           \* |      \* |               \* |
 | 02-15-2018  | FastAI            |        99.98 |    0.01 |               25 |
 |             | Keras-Tensorfflow |        99.32 |      \* |               \* |
 |             | Keras-Theano      |           \* |      \* |               \* |
