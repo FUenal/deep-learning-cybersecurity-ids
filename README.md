@@ -126,14 +126,14 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
 | 02-16-2018  | FastAI            |       100.00 |    0.00 |               16 |
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+|             | LogisticRegression            |        99.99 |      0.00 |
+|             | LDA      |           99.83 |      0.01 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           100.00 |      0.00 |
+|             | GaussianNB     |           99.75 |      0.01 |
+|             | BernoulliNB     |           98.41 |      0.03 |
+|             | RandomForest     |           100.00 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
 | 02-22-2018  | FastAI            |        99.87 |    0.15 |              110 |
 |             | LogisticRegression            |        98.80 |      \* |
 |             | LDA      |           \* |      \* |
