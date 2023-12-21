@@ -181,7 +181,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 | ![](<./plots/confusion_matrices/result14022018_cm.png>) |    ![](<./plots/confusion_matrices/result15022018_cm.png>)    |   ![](<./plots/confusion_matrices/result16022018_cm.png>)    |
 |                          02-22-2018                          |                             02-23-2018                             |                            03-01-2018                             |
 | ![](<./plots/confusion_matrices/result22022018_cm.png>) |    ![](<./plots/confusion_matrices/result23022018_cm.png>)    |   ![](<./plots/confusion_matrices/result01032018_cm.png>)    |
-|                          03-02-2018                          |                        \*                      |                        \*                       |
-| ![](<./plots/confusion_matrices/result02032018_cm.png>) | \* | \* |
+|                          03-02-2018                          | 
+| ![](<./plots/confusion_matrices/result02032018_cm.png>) | 
 
 
