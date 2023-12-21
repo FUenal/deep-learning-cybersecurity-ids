@@ -100,7 +100,6 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 -   RandomForestClassifier
 -   XGBClassifier
 
-![](<./plots/box plots/result14022018_plt.png>) 
 ## Experiment Results
 
 ### Using colab.research.google.com/
