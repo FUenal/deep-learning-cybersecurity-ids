@@ -111,7 +111,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 #### Using colab.research.google.com/
 
-#### Boxplots Accuracy Scores
+#### Plots: Accuracy Scores
 
 **Table 3: Boxplots Accuracy Comparison for each dataset**
 
@@ -196,7 +196,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 #### Confusion Matrices
 
-**Table 5:  Confusion matrices for each dataset**
+**Table 5: Confusion matrices for each dataset**
 |                          02-14-2018                          |                             02-15-2018                             |                            02-16-2018                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![](<./plots/confusion_matrices/result14022018_cm.png>) |    ![](<./plots/confusion_matrices/result15022018_cm.png>)    |   ![](<./plots/confusion_matrices/result16022018_cm.png>)    |
