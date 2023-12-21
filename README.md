@@ -7,7 +7,7 @@ In line with recent prominence on other tabular datasets, fast.ai is almost on p
 
 ![](<./plots/box plots/result02032018_plt.png>)
 
-(<./plots/confusion_matrices/result16022018_cm.png>)
+![](<./plots/confusion_matrices/result16022018_cm.png>)
 
 ## Background
 
