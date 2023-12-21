@@ -7,6 +7,8 @@ In line with recent prominence on other tabular datasets, fast.ai is almost on p
 
 ![](<./plots/box plots/result02032018_plt.png>)
 
+(<./plots/confusion_matrices/result16022018_cm.png>)
+
 ## Background
 
 Recent advancements in deep learning algorithms have facilitated significant strides in addressing challenging computer science problems and applications in nearly all areas of life. These breakthroughs have extended to areas such as computer vision, natural language processing, complex reasoning tasks like playing board games (e.g., Go, Chess), and even surpassing human champions. 
