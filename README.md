@@ -105,64 +105,71 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 ### Using colab.research.google.com/
 
-| Dataset     | Framework         | Accuracy (%) | Std-Dev | GPU Time (~mins) |
-| ----------- | ----------------- | -----------: | ------: | ---------------: |
-| 02-14-2018  | FastAI            |        99.85 |    0.07 |               \* |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+| Dataset     | Framework         | Accuracy (%) | Std-Dev |
+| ----------- | ----------------- | -----------: | ------: | 
+| 02-14-2018  | FastAI            |        99.85 |    0.07 |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 02-15-2018  | FastAI            |        99.98 |    0.01 |               25 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 02-16-2018  | FastAI            |       100.00 |    0.00 |               16 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 02-22-2018  | FastAI            |        99.87 |    0.15 |              110 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 02-23-2018  | FastAI            |        99.92 |    0.00 |              120 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 03-01-2018  | FastAI            |        87.00 |    0.00 |                5 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | 03-02-2018  | FastAI            |        99.97 |     .01 |               75 |
-|             | XGBoost           |        98.80 |      \* |               \* |
-|             | Random Forest     |           \* |      \* |               \* |
-|             | DecisionTreeClassifier     |           \* |      \* |               \* |
-|             | LogisticRegression     |           \* |      \* |               \* |
-|             | SVC     |           \* |      \* |               \* |
-|             | GaussianNB     |           \* |      \* |               \* |
-|             | KNeighborsClassifier     |           \* |      \* |               \* |
+|             | LogisticRegression            |        98.80 |      \* |
+|             | LDA      |           \* |      \* |
+|             | KNN      |           \* |      \* |
+|             | DecisionTreeClassifier     |           \* |      \* |
+|             | GaussianNB     |           \* |      \* |
+|             | BernoulliNB     |           \* |      \* |
+|             | RandomForest     |           \* |      \* |
+|             | XGBoost     |           \* |      \* |
 | ===         | ===               |          === |     === |              === |
 
 
