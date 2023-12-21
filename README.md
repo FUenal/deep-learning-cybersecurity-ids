@@ -1,13 +1,22 @@
 # deep-learning-cybersecurity-ids
 Deep learning and Machine learning for network threat detection
 
-Towards Developing a Network Intrusion Detection System using Deep Learning Techniques
-- Published article: http://isyou.info/jisis/vol9/no4/jisis-2019-vol9-no4-01.pdf
+I use the fast.ai deep learning framework for one of its newest applications: classification on tabular data. I compare its performance against the incumbent best tool in the field, gradient boosting with XGBoost, as well as against various scikit-learn classifiers in detecting network intrusion traffic and classifying common network attack types (e.g., FTP-BruteForce, DOS-GoldenEye, BruteForce-XSS, SQL-Injection, Infiltration, BotAttack). In line with recent prominence on other tabular datasets, fast.ai is almost on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy (87%-99%), with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
 
-## Introduction
+## Background
 
-In this project, we aim to explore the capabilities of various deep-learning frameworks in detecting
-and classifying network intursion traffic with an eye towards designing a ML-based intrusion detection system.
+Recent advancements in deep learning algorithms have facilitated significant strides in addressing challenging computer science problems and applications in nearly all areas of life. These breakthroughs have extended to areas such as computer vision, natural language processing, complex reasoning tasks like playing board games (e.g., Go, Chess), and even surpassing human champions. 
+
+In light of the ongoing surge in cyber-attacks and the increased demand for AI usage in the context of cybersecurity [MIT Report](https://wp.technologyreview.com/wp-content/uploads/2022/07/Deep-Learning-Delivers-proactive-Cyber-defense-FNL.pdf), in this project, I investigate the effectiveness and capacity of a powerful new deep learning algorithm, fast ai, in the domain of network intrusion detection and compare its performance against the incumbent best tool in the field, gradient boosting with XGBoost, as well as against various scikit-learn classifiers (random forest, knn, naïve bayes, etc.). 
+
+In a previous study, [Basnet and colleagues (2018)]( https://isyou.info/jisis/vol9/no4/jisis-2019-vol9-no4-01.pdf) have shown that the fastai deep learning algorithm provided the highest accuracy of about 99% compared to other well-known deep learning frameworks (e.g., Keras, TensorFlow, Theano) in detecting network intrusion traffic and classifying common network attack types using the [CSE-CIC-IDS2018 dataset](https://www.unb.ca/cic/datasets/ids-2018.html) (same dataset as I used here). 
+
+Deep learning is the gold standard for large, unstructured datasets, including text, images, and video and has been battle tested in areas such as computer vision, natural language processing, and complex reasoning tasks. However, for one specific type of dataset –one of the most common datasets used in cybersecurity– deep learning typically falls behind other, more “shallow-learning” approaches such as decision tree algorithms (random forests, gradient boosted decision trees): TABULAR DATA. 
+
+Indeed, in a [systematic review and meta-analysis](https://arxiv.org/abs/2207.08815) last year, Léo Grinsztajn, Edouard Oyallon, Gaël Varoquaux have shown that, overall, tree-based models (random forests and XGBoost) outperform deep learning methods for tabular data on medium-sized datasets (10k training examples). However, the gap between tree-based models and deep learning becomes narrower as the dataset size increases (here: 10k -> 50k).
+
+Here, I extend these lines of investigation, by comparing fast ai’s deep learning framework with XGBoost as well as other scikit-learn classifiers on a relatively large dataset of network traffic data.
+
 
 ## Dataset
 
@@ -17,6 +26,7 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 
 ## Data Cleanup
 
+I am using the ***data_cleanup.py*** script from the [Basnet and colleagues project](https://github.com/Colorado-Mesa-University-Cybersecurity/DeepLearning-IDS/tree/master) to perform data wrangling. 
 -   dropped rows with Infinitiy values
 -   some files had repeated headers; dropped those
 -   converted timestamp value that was date time format: 15-2-2018 to UNIX epoch since 1/1/1970
@@ -69,7 +79,7 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 
 ## Deep Learning Frameworks
 
--   perfomance results using various deep learning frameworks are compared
+-   perfomance results using the fast au deep learning framework is compared various machine learning algorithms from the scikit-learn library
 -   10-fold cross-validation techniques was used to validate the model
 
 ### FastAI
@@ -77,12 +87,17 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 -   https://www.fast.ai/
 -   uses PyTorch, https://pytorch.org/ as the backend
 
-### Keras
+### Scikit-Learn
 
--   https://keras.io/
--   using TensorFlow and Theano as backend
--   https://www.TensorFlow.org/
--   https://github.com/Theano/Theano
+-   LogisticRegression
+-   LinearDiscriminantAnalysis
+-   KNN
+-   DecisionTreeClassifier
+-   GaussianNB
+-   BernoulliNB
+-   RandomForestClassifier
+-   XGBClassifier
+
 
 ## Experiment Results
 
@@ -147,12 +162,7 @@ and classifying network intursion traffic with an eye towards designing a ML-bas
 |             | GaussianNB     |           \* |      \* |               \* |
 |             | KNeighborsClassifier     |           \* |      \* |               \* |
 | ===         | ===               |          === |     === |              === |
-| Multiclass  | Keras-TensorFlow  |        94.73 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
-|             | FastAI            |           \* |      \* |               \* |
-| Binaryclass | Keras-TensorFlow  |        94.40 |      \* |               \* |
-|             | Keras-Theano      |           \* |      \* |               \* |
-|             | FastAI            |           \* |      \* |               \* |
+
 
 ### FastAI Results
 
