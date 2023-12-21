@@ -107,15 +107,15 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 | Dataset     | Framework         | Accuracy (%) | Std-Dev |
 | ----------- | ----------------- | -----------: | ------: | 
-| 02-14-2018  | FastAI            |        99.85 |    0.07 |
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+| 02-14-2018  | FastAI            |        99.99 |    0.05 |
+|             | LogisticRegression            |        99.99 |      0.00 |
+|             | LDA      |           98.71 |      0.01 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           99.99 |      0.00 |
+|             | GaussianNB     |           99.97 |      0.00 |
+|             | BernoulliNB     |           99.88 |      0.01 |
+|             | RandomForest     |            99.99 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
 | 02-15-2018  | FastAI            |        99.99 |    0.01 |            
 |             | LogisticRegression            |        99.97 |      0.00 |
 |             | LDA      |           98.15 |      0.05 |
