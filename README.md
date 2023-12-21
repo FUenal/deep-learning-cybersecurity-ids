@@ -77,7 +77,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 | BotAttack        |   286,191 |
 | Total Attack     | 1,414,765 |
 
-## Deep Learning Frameworks
+## Deep Learning and Machine Learning Frameworks
 
 -   perfomance results using the fast au deep learning framework is compared various machine learning algorithms from the scikit-learn library
 -   10-fold cross-validation techniques was used to validate the model
