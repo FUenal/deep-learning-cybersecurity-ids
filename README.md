@@ -5,6 +5,8 @@ I use the fast.ai deep learning framework for one of its newest applications: cl
 
 In line with recent prominence on other tabular datasets, fast.ai is almost on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy (87%-99%), with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
 
+![](<./plots/box plots/result02032018_plt.png>)
+
 ## Background
 
 Recent advancements in deep learning algorithms have facilitated significant strides in addressing challenging computer science problems and applications in nearly all areas of life. These breakthroughs have extended to areas such as computer vision, natural language processing, complex reasoning tasks like playing board games (e.g., Go, Chess), and even surpassing human champions. 
