@@ -116,15 +116,15 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| 02-15-2018  | FastAI            |        99.98 |    0.01 |            
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+| 02-15-2018  | FastAI            |        99.99 |    0.01 |            
+|             | LogisticRegression            |        99.97 |      0.00 |
+|             | LDA      |           98.15 |      0.05 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           99.99 |      0.00 |
+|             | GaussianNB     |           96.44 |      0.09 |
+|             | BernoulliNB     |           94.58 |      0.08 |
+|             | RandomForest     |            99.99 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
 | 02-16-2018  | FastAI            |       99.00 |    0.00 |             
 |             | LogisticRegression            |        99.99 |      0.00 |
 |             | LDA      |           99.83 |      0.01 |
@@ -134,24 +134,24 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           98.41 |      0.03 |
 |             | RandomForest     |           100.00 |      0.00 |
 |             | XGBoost     |           99.99 |      0.00 |
-| 02-22-2018  | FastAI            |        99.87 |    0.15 |             
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
-| 02-23-2018  | FastAI            |        99.92 |    0.00 |             
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+| 02-22-2018  | FastAI            |        99.99 |    0.12 |             
+|             | LogisticRegression            |        99.98 |      0.00 |
+|             | LDA      |           99.77 |      0.04 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           99.99 |      0.00 |
+|             | GaussianNB     |           83.28 |      0.12 |
+|             | BernoulliNB     |           90.13 |      1.73 |
+|             | RandomForest     |           99.98 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
+| 02-23-2018  | FastAI            |        99.99 |    0.00 |             
+|             | LogisticRegression            |        99.96 |      0.01 |
+|             | LDA      |           99.72 |      0.03 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           99.99 |      0.00 |
+|             | GaussianNB     |           83.89 |      0.16 |
+|             | BernoulliNB     |           90.53 |      0.15 |
+|             | RandomForest     |           99.98 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
 | 03-01-2018  | FastAI            |        87.70 |    0.07 |             
 |             | LogisticRegression            |        74.22 |      1.37 |
 |             | LDA      |           75.55 |      0.27 |
