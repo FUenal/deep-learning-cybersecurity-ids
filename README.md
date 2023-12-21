@@ -2,7 +2,7 @@
 
 I use the fast.ai deep learning framework for one of its newest applications: classification on tabular data. I compare its performance against the incumbent best tool in the field, gradient boosting with XGBoost, as well as against various scikit-learn classifiers in detecting network intrusion traffic and classifying common network attack types (e.g., FTP-BruteForce, DOS-GoldenEye, BruteForce-XSS, SQL-Injection, Infiltration, BotAttack). 
 
-In line with recent prominence on other tabular datasets, fast.ai is almost on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy (87%-99%), with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
+In line with recent prominence on other tabular datasets, fast.ai is on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy across datasets and network attack types, with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
 
 ![](<./plots/box plots/result02032018_plt.png>)
 
