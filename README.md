@@ -161,16 +161,17 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           50.89 |      0.65 |
 |             | RandomForest     |           91.00 |      0.17 |
 |             | XGBoost     |           94.25 |      0.19 |
-| 03-02-2018  | FastAI            |        99.97 |     .01 |               75 |
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+| 03-02-2018  | FastAI            |        99.99 |     0.01 |               75 |
+|             | LogisticRegression            |        97.04 |      1.55 |
+|             | LDA      |           94.41 |      0.08 |
+|             | KNN      |           99.99 |      0.00 |
+|             | DecisionTreeClassifier     |           99.99 |      0.00 |
+|             | GaussianNB     |           83.98 |      0.13 |
+|             | BernoulliNB     |           94.11 |      0.08 |
+|             | RandomForest     |           99.99 |      0.00 |
+|             | XGBoost     |           99.99 |      0.00 |
 | ===         | ===               |          === |     === |
+
 
 
 
