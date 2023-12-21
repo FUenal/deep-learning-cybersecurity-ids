@@ -116,7 +116,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| 02-15-2018  | FastAI            |        99.98 |    0.01 |               25 |
+| 02-15-2018  | FastAI            |        99.98 |    0.01 |            
 |             | LogisticRegression            |        98.80 |      \* |
 |             | LDA      |           \* |      \* |
 |             | KNN      |           \* |      \* |
@@ -125,7 +125,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| 02-16-2018  | FastAI            |       100.00 |    0.00 |               16 |
+| 02-16-2018  | FastAI            |       99.00 |    0.00 |             
 |             | LogisticRegression            |        99.99 |      0.00 |
 |             | LDA      |           99.83 |      0.01 |
 |             | KNN      |           99.99 |      0.00 |
@@ -134,7 +134,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           98.41 |      0.03 |
 |             | RandomForest     |           100.00 |      0.00 |
 |             | XGBoost     |           99.99 |      0.00 |
-| 02-22-2018  | FastAI            |        99.87 |    0.15 |              110 |
+| 02-22-2018  | FastAI            |        99.87 |    0.15 |             
 |             | LogisticRegression            |        98.80 |      \* |
 |             | LDA      |           \* |      \* |
 |             | KNN      |           \* |      \* |
@@ -143,7 +143,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| 02-23-2018  | FastAI            |        99.92 |    0.00 |              120 |
+| 02-23-2018  | FastAI            |        99.92 |    0.00 |             
 |             | LogisticRegression            |        98.80 |      \* |
 |             | LDA      |           \* |      \* |
 |             | KNN      |           \* |      \* |
@@ -152,15 +152,15 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| 03-01-2018  | FastAI            |        87.00 |    0.00 |                5 |
-|             | LogisticRegression            |        98.80 |      \* |
-|             | LDA      |           \* |      \* |
-|             | KNN      |           \* |      \* |
-|             | DecisionTreeClassifier     |           \* |      \* |
-|             | GaussianNB     |           \* |      \* |
-|             | BernoulliNB     |           \* |      \* |
-|             | RandomForest     |           \* |      \* |
-|             | XGBoost     |           \* |      \* |
+| 03-01-2018  | FastAI            |        87.70 |    0.07 |             
+|             | LogisticRegression            |        74.22 |      1.37 |
+|             | LDA      |           75.55 |      0.27 |
+|             | KNN      |           85.26 |      0.20 |
+|             | DecisionTreeClassifier     |           92.59 |      0.13 |
+|             | GaussianNB     |           41.58 |      2.94 |
+|             | BernoulliNB     |           50.89 |      0.65 |
+|             | RandomForest     |           91.00 |      0.17 |
+|             | XGBoost     |           94.25 |      0.19 |
 | 03-02-2018  | FastAI            |        99.97 |     .01 |               75 |
 |             | LogisticRegression            |        98.80 |      \* |
 |             | LDA      |           \* |      \* |
