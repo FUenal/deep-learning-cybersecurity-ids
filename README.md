@@ -170,7 +170,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |             | BernoulliNB     |           \* |      \* |
 |             | RandomForest     |           \* |      \* |
 |             | XGBoost     |           \* |      \* |
-| ===         | ===               |          === |     === |              === |
+| ===         | ===               |          === |     === |
 
 
 ### FastAI Results
