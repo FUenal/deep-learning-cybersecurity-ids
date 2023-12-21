@@ -1,7 +1,9 @@
 # deep-learning-cybersecurity-ids
 Deep learning and Machine learning for network threat detection
 
-I use the fast.ai deep learning framework for one of its newest applications: classification on tabular data. I compare its performance against the incumbent best tool in the field, gradient boosting with XGBoost, as well as against various scikit-learn classifiers in detecting network intrusion traffic and classifying common network attack types (e.g., FTP-BruteForce, DOS-GoldenEye, BruteForce-XSS, SQL-Injection, Infiltration, BotAttack). In line with recent prominence on other tabular datasets, fast.ai is almost on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy (87%-99%), with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
+I use the fast.ai deep learning framework for one of its newest applications: classification on tabular data. I compare its performance against the incumbent best tool in the field, gradient boosting with XGBoost, as well as against various scikit-learn classifiers in detecting network intrusion traffic and classifying common network attack types (e.g., FTP-BruteForce, DOS-GoldenEye, BruteForce-XSS, SQL-Injection, Infiltration, BotAttack). 
+
+In line with recent prominence on other tabular datasets, fast.ai is almost on par with XGBoost and sklearn’s Random Forest Classifier, demonstrating high accuracy (87%-99%), with low false positive and negative rates in the classification of various intrusion types. Pretty powerful!
 
 ## Background
 
@@ -101,7 +103,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 ## Experiment Results
 
-### Using Salamander.ai
+### Using colab.research.google.com/
 
 | Dataset     | Framework         | Accuracy (%) | Std-Dev | GPU Time (~mins) |
 | ----------- | ----------------- | -----------: | ------: | ---------------: |
