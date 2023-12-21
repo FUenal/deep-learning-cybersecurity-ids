@@ -109,11 +109,11 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 |                          02-14-2018                          |                             02-15-2018                             |                            02-16-2018                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
-| ![](<./plots/boxplots/result14022018_cm.png>) |    ![](<./plots/boxplots/result15022018_cm.png>)    |   ![](<./plots/confusion_matrices/result16022018_cm.png>)    |
+| ![](<./plots/box plots/result14022018_plt.png>) |    ![](<./plots/box plots/result15022018_plt.png>)    |   ![](<./plots/box plots/result16022018_plt.png>)    |
 |                          02-22-2018                          |                             02-23-2018                             |                            03-01-2018                             |
-| ![](<./plots/confusion_matrices/result22022018_cm.png>) |    ![](<./plots/confusion_matrices/result23022018_cm.png>)    |   ![](<./plots/confusion_matrices/result01032018_cm.png>)    |
+| ![](<./plots/box plots/result22022018_plt.png>) |    ![](<./plots/box plots/result23022018_plt.png>)    |   ![](<./plots/box plots/result01032018_plt.png>)    |
 |                          03-02-2018                          | 
-| ![](<./plots/confusion_matrices/result02032018_cm.png>) | 
+| ![](<./plots/box plots/result02032018_plt.png>) | 
 
 | Dataset     | Framework         | Accuracy (%) | Std-Dev |
 | ----------- | ----------------- | -----------: | ------: | 
