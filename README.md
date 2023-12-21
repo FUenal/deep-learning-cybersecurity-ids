@@ -39,6 +39,8 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 ## Dataset Summary
 
+**Table 1: Number of samples and network traffic types in each dataset**
+
 | File Name      | Traffic Type     | # Samples | # Dropped |
 | -------------- | ---------------- | --------: | :-------- |
 | 02-14-2018.csv | Benign           |   663,808 | 3818      |
@@ -62,6 +64,8 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |                | Infiltration     |    92,403 | 660       |
 | 03-02-2018.csv | Benign           |   758,334 | 4050      |
 |                | BotAttack        |   286,191 | 0         |
+
+**Table 2: Total number of traffic data samples for each type among all the datasets**
 
 | Traffic Type     | # Samples |
 | ---------------- | --------: |
@@ -102,9 +106,11 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 ## Experiment Results
 
-### Using colab.research.google.com/
+#### Using colab.research.google.com/
 
 #### Boxplots Accuracy Scores
+
+**Table 3: Boxplots Accuracy Comparison for each dataset**
 
 |                          02-14-2018                          |                             02-15-2018                             |                            02-16-2018                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
@@ -114,6 +120,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 |                          03-02-2018                          | 
 | ![](<./plots/box plots/result02032018_plt.png>) | 
 
+**Table 4:  Accuracy Comparison for each dataset**
 | Dataset     | Framework         | Accuracy (%) | Std-Dev |
 | ----------- | ----------------- | -----------: | ------: | 
 | 02-14-2018  | FastAI            |        99.99 |    0.05 |
@@ -186,6 +193,7 @@ I am using the ***data_cleanup.py*** script from the [Basnet and colleagues proj
 
 #### Confusion Matrices
 
+**Table 5:  Confusion matrices for each dataset**
 |                          02-14-2018                          |                             02-15-2018                             |                            02-16-2018                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![](<./plots/confusion_matrices/result14022018_cm.png>) |    ![](<./plots/confusion_matrices/result15022018_cm.png>)    |   ![](<./plots/confusion_matrices/result16022018_cm.png>)    |
