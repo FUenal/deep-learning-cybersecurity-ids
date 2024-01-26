@@ -6,7 +6,13 @@ In line with recent prominence on other tabular datasets, fast.ai is on par with
 
 ![](<./plots/box plots/result02032018_plt.png>)
 
-![](<./plots/confusion_matrices/result16022018_cm.png>)
+A more in-depth analysis using partial AUC (5% false positive rate), instead of the overall accuracy score as the main evaluation and comparison metric shows that while the fast.ai approach shows a remarkably high partial AUC (99.88%), it is slightly lower compared to the XGBoost, Random Forest, KNN, & Decision Tree classifiers (see plot below). The partial AUC score is more informative than the overall accuracy score as we are dealing with high class-imbalance in the dataset.
+
+![](<./plots/box plots/partial_auc.png>)
+
+Below is a confusion matrix of the same dataset for visual inspection.
+
+![](<./plots/confusion_matrices/result02032018_cm.png>)
 
 ## Background
 
